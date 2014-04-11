@@ -11,12 +11,12 @@ Solution for 'Ultimate Manager developer challenge'
 
 * The application simulates real time progress (at 'fast forward' speed) while displaying actions made by the player team over time.
 * Click on a player name for detailed info.
+* Mouseover/touch graph items for scored points per minutes.
 * Tip: Click on an 'upcoming match' info label to skip forward in time to the starting time of the match.
 
 ### Links
 
 * Live: http://philippesimpson.dk/livemanager/
-(Hints: Click player name for detailed info. Click 
 
 ### Technologies
 
