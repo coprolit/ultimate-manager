@@ -1,0 +1,181 @@
+body {
+  background-image: url(../img/grass-tile.png);
+  background-color: black;
+  font-family: 'Tienne', serif;
+  margin: 0;
+  padding: 0;
+  color: white; }
+
+h1, h2, h3 {
+  margin: 0;
+  color: darkslategrey; }
+
+h2 {
+  color: gold;
+  margin: 20px 0 5px 0; }
+
+h3 {
+  color: whitesmoke;
+  margin: 10px 0 5px 0; }
+
+a {
+  cursor: pointer;
+  display: block; }
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.02); }
+
+#wrapper {
+  width: 96%;
+  max-width: 978px;
+  margin: auto;
+  padding: 2%; }
+
+.brand {
+  width: 283px;
+  height: 40px;
+  background: url(https://www.playlivemanager.com/landing-page/img/logo.png) center center no-repeat;
+  text-indent: -3000px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: left; }
+
+.headline {
+  color: gold;
+  line-height: 41px;
+  margin-left: 20px; }
+
+#clock {
+  color: whitesmoke;
+  float: right;
+  width: 250px; }
+
+.player-container {
+  margin: 1% 0;
+  padding: 2%;
+  background-color: darkorange; }
+
+.player-name {
+  color: darkslategrey; }
+
+.action-info {
+  vertical-align: top; }
+
+.match-notice {
+  font-size: small; }
+
+.latest {
+  font-style: italic; }
+
+/*
+.current-match {
+  font-size: small;
+}
+*/
+.points-player {
+  float: right; }
+
+.points-action {
+  font-weight: bold;
+  margin-left: 10px; }
+
+.actions-detail {
+  height: 685px; }
+
+.period {
+  text-align: center;
+  margin-top: 20px; }
+
+.match-icon {
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px; }
+
+.successful-pass {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/successful-cross.png"); }
+
+.penalty-saved {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/penalty-saved.png"); }
+
+.attempt-saved {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/save.png"); }
+
+.aerial-duel-won {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/aerial-duel-won.png"); }
+
+.long-pass {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/long-pass.png"); }
+
+.cross-intercepted {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/cross-intercepted.png"); }
+
+.starting-11 {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/starting-11.png"); }
+
+.duel-won {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/duel-won.png"); }
+
+.defensive-clearance {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/defensive-clearance.png"); }
+
+.interception {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/interception.png"); }
+
+.yellow-card {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/yellow-card.png"); }
+
+.assist {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/assist.png"); }
+
+.big-chance-created {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/big-chance-created.png"); }
+
+.blocked-shot,
+.hit-woodwork {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/blocked-shot.png"); }
+
+.dribble {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/dribble.png"); }
+
+.goal {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/goal.png"); }
+
+.shot-on-target {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/shot-on-target.png"); }
+
+.successful-cross,
+.successful-pass {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/successful-cross.png"); }
+
+.penalty-missed {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/penalty-missed.png"); }
+
+.clean-sheet,
+.goal-scored-by-team,
+.goal-against-team,
+.match-won {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/team-bonus.png"); }
+
+.other {
+  background-image: url("https://www.playlivemanager.com/landing-page/img/match-icons/other.png"); }
+
+.league-banner {
+  background: url("https://www.playlivemanager.com/landing-page/img/league-banners.png") no-repeat;
+  display: block;
+  width: 130px;
+  height: 205px; }
+
+.league-banner.bundesliga {
+  background-position: -2px -2px; }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .box-panel-main, .box-panel-assist {
+    float: left;
+    clear: left;
+    margin: 0 0 10px;
+    width: 100%; } }
